@@ -130,4 +130,64 @@
     margin-bottom: 15px;
 }
 
+/* Estilo al título de la página */
+
+.tiulo-canada {
+    color: #d32f2f !important;
+    font-size: 40px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+/* Estilo a la bandera */
+.bandera {
+    width: 40px;
+    height: auto;
+}
+
+.titulo-canada {
+    color: #d0d0d0;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(11, 11, 11, 0.83);
+}
+
+.bandera:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Estilos para el video */
+
+.video-banff {
+    width: 100%;
+    max-width: 450px;
+    height: 260px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20 px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-5 {
+    padding: 20px;
+}
+
+/* Fin de estilos para el video */
+
+
+
+
+
+
+
+
+
+
+
+
+
 

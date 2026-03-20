@@ -1,0 +1,15 @@
+/* Estilos para el video */
+
+.video-banff {
+    width: 100%;
+    max-width: 450px;
+    height: 260px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20 px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-5 {
+    padding: 20px;
+}
+
+/* Fin de estilos para el video */
