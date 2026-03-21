@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tesoros de Canadá</title>
-<link rel="stylesheet" href="./css/paginastyle.css">
+<link rel="stylesheet" href="./css/iniciostyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
+
+    <div class="overlay"></div>
+
+    <h1 class="titulo-canada">Banff</h1>
+    <img src="./imagenes/Canada - flag.jpg" alt="Bandera Canadá" class="bandera">
     
 <!--Inicio de la barra de navegación-->
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -20,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Banff</a>
+          <a class="nav-link active" aria-current="page" href="./pagina.html">Banff</a>
         </li>
       </ul>
     </div>
@@ -28,35 +35,223 @@
 </nav>
 <!--Fin de la barra de navegación-->
 
-<div class="parrafo">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius! Voluptatum saepe rerum maxime dolore provident, assumenda dolorum nesciunt quae exercitationem id nobis eligendi corporis accusantium reiciendis, delectus tempora molestias? </p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, alias? Temporibus perspiciatis reiciendis minus! Dolor necessitatibus dolorum porro eos dolore vero asperiores, itaque maxime cumque? Harum quasi illo deserunt cumque.
-  Odit recusandae corporis ipsam vero pariatur mollitia quam ea. Cupiditate rerum atque corrupti porro cumque beatae quisquam architecto! Doloremque unde rerum placeat porro, corrupti harum animi quos architecto consectetur itaque?
-  Laborum accusantium veniam optio maxime debitis ex quos temporibus vero? Voluptatem accusantium, facilis labore obcaecati reiciendis et necessitatibus ut aspernatur iure atque voluptatibus ipsam aliquam aut ex explicabo, molestias enim!</p>
+<!-- Inicio de carrusel de imágenes -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imagenes/Canada-1.jpg" class="d-block w-100 tamano" alt="...">
+
+      <div class="carousel-caption">
+      <h2>Banff</h2>
+      <p>Un tesoro canadiense</p>
+    </div>
+    </div>
+
+    
+    <div class="carousel-item">
+      <img src="./imagenes/Canada-2.jpg" class="d-block w-100 tamano" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/Canada-9.jpg" class="d-block w-100 tamano" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Fin del carrusel de imágenes -->
+
+<br>
+<br>
+<!-- Inicio de columnas: texto, imagen, texto -->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <p>Banff es uno de los destinos más hermosos de Canadá, famoso por sus montañas cubiertas de nieve, lagos de color turquesa y paisajes que parecen sacados de un sueño. Es el lugar perfecto para conectarse con la naturaleza.</p>
+    </div>
+    <div class="col">
+      <img src="./imagenes/Banff-Letrero.jpg" class="img-fluid" style="max-width: 300px;" alt="Hoja roja de maple">
+    </div>
+    <div class="col">
+      <p>Ubicado en el Parque Nacional Banff, este destino ofrece actividades como senderismo, esquí y paseos en kayak. Cada rincón es una oportunidad para vivir una aventura inolvidable rodeado de paisajes espectaculares.</p>
+    </div>
+  </div>
+  <!-- Final deInicio de columnas: texto, imagen, texto -->
+
+  <br>
+  <!-- Fila 2 con botón -->
+<div class="row mt-3">
+  <div class="col"></div>
+
+  <div class="col">
+    <p>En invierno, Banff se transforma en un mundo blanco ideal para el esquí, mientras que en verano sus lagos y bosques cobran vida con colores vibrantes. Sin importar la época, siempre tiene algo especial que ofrecer.</p>
+
+<a href="https://banff.ca/" class="btn btn-canada mt-2">Conoce más sobre Banff</a>
+  </div>
+
+  <div class="col"></div>
+  </div>
+  </div>
+<!-- Fin de la Fila 2 con botón -->
+
+<br>
+<br>
+
+<!-- Inicio de lista, texto, tabla -->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      
+<div class="lista-lugares">
+  <h3>Lugares más lindos de Banff</h3>
+
+<ul>
+  <li>Lake Louise</li>
+  <li>Moraine Lake</li>
+  <li>Parque Nacional Banff</li>
+</ul>
 </div>
 
+    </div>
+    <div class="col">
+      <p>Banff es el parque nacional más antiguo de Canadá y uno de losm ás visitados del mundo. Sus famosos lagos, como Lake Louise, obtienen su color turquesa gracias a pequeños fragmentos de roca llamados "harina glaciar".</p>
+    </div>
+    <div class="col">
+      <div class="tabla-banff">
+        <h3>Información</h3>
+
+        <table>
+          <tr>
+            <th>Lugar</th>
+            <th>Ubicación</th>
+            <th>Características</th>
+          </tr>
+
+          <tr>
+            <td>Lake Louise</td>
+            <td>Alberta</td>
+            <td>Lago Turquesa</td>
+          </tr>
+
+          <tr>
+            <td>Moraine Lake</td>
+            <td>Valle de los Diez Picos</td>
+            <td>Paisaje Montañoso</td>
+          </tr>
+
+          <tr>
+            <td>Parque Nacional Banff</td>
+            <td>Canadá</td>
+            <td>Reserva natural</td>
+          </tr>
+        </table>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+
+<!-- Fin de Inicio de lista, texto, tabla -->
+<br>
+<br>
+
+<!-- Inicio del texto y dos imágenes -->
+
+<div class="container mt-5">
+  <div class="row align-items-center justify-content-center">
+
+    <!-- Texto -->
+     <div class="col-md-6 text-section text-center text-md-start">
+      <h2>Conoce Banff</h2>
+      <p>Banff es un parque nacional lleno de paisajes increíbles, lugares vibrantes y montañas de ensueño.</p>
+      <p>Explora sus maravillas naturales su historia y todo lo que lo hace único.</p>
+     </div>
+
+     <!-- Inicio de las dos imágenes -->
+      <div class="col-md-6 images-section">
+        <div class="row">
+          <div class="col-6">
+            <img src="./imagenes/Banff-Town.jpg" alt="Pueblo Banff" class="img-fluid img-custom">
+            </div>
+            <div class="col-6">
+              <img src="./imagenes/Banff-Town2.jpg" alt="Vista del pueblo Banff" class="img-fluid img-custom">
+            </div>
+        
+          </div>
+           
+ 
+<!-- Fin de las dos imágenes -->
+</div>
+</div>
+</div>
+ 
+
+<br>
+<div class="my-5"></div>
+
+<!-- Inicio de footer -->
+
+<footer class="footer">
+  <div class="footer-container">
+
+<!-- Inicio de info del creador de la página web -->
+<div class="footer-section">
+  <h3>Creadora del sitio web</h3>
+  <p>Luz Natalia Sánchez Rodríguez</p>
+</div>
+<!-- Fin de info del creador de la página web -->
+
+<!-- Inicio de Redes sociales -->
+<div class="footer-section">
+  <h3>Redes sociales</h3>
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+</div>
+<!-- Fin de Redes sociales -->
+
+
+<!-- Inicio de otros links de interés -->
+<div class="footer-section">
+  <h3>Explora Canadá</h3>
+  <ul>
+    <li><a href="https://www.canada.ca" target="_blank">Turismo Canadá</a></li>
+    <li><a href="https://www.travelalberta.com" target="_blank">Alberta</a></li>
+    <li><a href="https://www.visitcalgary.com/" target="_blank">Calgary</a></li>
+  </ul>
+</div>
+
+  </div>
+  <!-- Fin de otros links de interés -->
+
+  <p class="footer-copy">&copy 2026 Tesoros de Canadá</p>
+
+</footer>
+<!-- Fin de footer -->
 
 
 
-
-
-<!-- Aquí va el video -->
-      <div class="col-md-5 text-center">
-<iframe width="560" height="315"
-class="video-banff"
-src="https://youtube.com/embed/Nl_yp-4G0cA"
-frameborder="0"
-allowfullscreen>
-</iframe>
-</div>   
-
-<!-- Aquí finaliza el video -->
-
-  </body>
-</html>
-
-
-<!-- Fin de Prueba de video -->
 
 
 
