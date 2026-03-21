@@ -116,8 +116,8 @@ Durante el desarrollo de este proyecto se aprendió:
 * Manejo de estructuras con container, row y col
 * Implementación de efectos visuales
 
-Autora
 
+# Autora
 Luz Natalia Sánchez Rodríguez
 
 
