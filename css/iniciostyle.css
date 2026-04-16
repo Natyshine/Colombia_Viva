@@ -78,14 +78,26 @@
 
 
 /* Ícono personalizado */
+.lista-lugares li {
+    position: relative;
+    padding-left: 35px;
+}
+
 .lista-lugares li::before {
-    content:"🍁" ;
+    content:"" ;
     position: absolute;
     left: 10px;
     top: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("../imagenes/saco-de-cafe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     transform: translateY(-50%);
     font-size: 18px;
 }
+
+
 
 
 /* Efecto hover */
