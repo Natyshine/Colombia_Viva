@@ -163,10 +163,12 @@
 }
 
 .titulo-canada {
-    color: #d0d0d0;
+    color: #fff023;
     font-size: 42px;
     font-weight: 700;
     text-shadow: 2px 2px 5px rgba(11, 11, 11, 0.83);
+
+    font-family: 'Poppins', sans-serif;
 }
 
 .bandera:hover {
@@ -286,20 +288,76 @@ body {
     width: 100%;
     height: 100%;
 
-    background: url(../imagenes/Background.jpg) center/cover no-repeat;
+    background: url(../imagenes/Fondo_Colombia.jpg) center/cover no-repeat;
 
     opacity: 0.3;
     z-index: -1;
 }
 
 
+/*Sombra a texto Colombia es un país...*/
+.container p {
+    color: #0a0a0a;
+
+    background: rgba(232, 231, 225, 0.4); /* fondo oscuro suave */
+    display: inline-block;
+
+    padding: 12px 18px;
+    border-radius: 10px;
+
+    text-shadow: 2px 2px 8px rgba(250, 247, 247, 0.9); /* sombra fuerte */
+
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 500;
+}
 
 
+/*Cambiar estilo a texto Gastronomía de Medellín*/
+.titulo-canada {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    /* Degradado bandera Colombia */
+    background: linear-gradient(90deg, #FCD116 10%, #003893 0%, #CE1126 50%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgba(0,0,0,0.6);
+
+    background-clip: text;
+    color: transparent;
+
+    /* Sombra para que resalte sobre imágenes */
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5);
+}
 
 
+/* Tarjetas */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
 
 
-
+/*Sección Sitios Turísticos*/
+#listaLugares li {
+    background: rgba(255,255,255,0.8);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
 
 
 
