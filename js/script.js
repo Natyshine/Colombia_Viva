@@ -2,7 +2,7 @@ const lugares = {
   Medellin: [
     { nombre: "Parque Arví", imagen: "./imagenes/Parque_Arvi.jpg" },
     { nombre: "Jardín Botánico", imagen: "./imagenes/Jardin_Botanico_Med.jpg" },
-    { nombre: "Comuna 13", imagen: "./imagenes/comuna13.jpg" }
+    { nombre: "Comuna 13", imagen: "./imagenes/Comuna13.jpg" }
   ],
 
   Cali: [
@@ -18,7 +18,7 @@ const lugares = {
   ],
 
   Bogota: [
-    { nombre: "Monserrate", imagen: "./imagenes/monserrate.jpg" },
+    { nombre: "Monserrate", imagen: "./imagenes/Monserrate.jpg" },
     { nombre: "Museo del Oro", imagen: "./imagenes/Museo_del_Oro.jpg" },
     { nombre: "La Candelaria", imagen: "./imagenes/La_Candelaria_Bogota.jpg" }
   ],
