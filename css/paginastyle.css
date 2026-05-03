@@ -295,17 +295,13 @@
     justify-content: center;
 }
 
-.img-custom {
-    width: 48%;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
 
 
 
-.img-custom:hover {
-    transform: scale(1.05);
-}
+
+
+
+
 
 /* Para que luzca bien en el celular */
 
@@ -484,6 +480,47 @@
 }
 
 
+/*Cambiar texto: Lugares turísticos*/
+.titulo-lugares {
+  color: #fff243;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
 
+  text-shadow: 2px 2px 8px rgba(138, 46, 12, 0.8);
+
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*Cambiar imagen del centro de los dos textos*/
+.img-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+
+/*Hacer que imagen en medio de dos textos quede grande*/
+
+.img-custom {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+
+  display: inline-block; /* 👈 clave */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-custom:hover {
+  transform: scale(1.08); /* 👈 más visible */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
 
 

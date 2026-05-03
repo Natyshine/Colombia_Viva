@@ -360,7 +360,17 @@ body {
 }
 
 
+/*Cambiar texto: Lugares turísticos*/
+.titulo-lugares {
+  color: #fff243;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
 
+  text-shadow: 2px 2px 8px rgba(138, 46, 12, 0.8);
+
+  font-family: 'Poppins', sans-serif;
+}
 
 
 

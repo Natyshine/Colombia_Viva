@@ -56,7 +56,10 @@
 </p>
     </div>
     <div class="col">
-      <img src="./imagenes/Medellín-noche.jpg" class="img-fluid" style="max-width: 300px;" alt="Ciudad Medellín">
+      <img src="./imagenes/Medellín-noche.jpg" 
+     class="img-fluid img-custom"
+     data-bs-toggle="modal" 
+     data-bs-target="#modalMedellinNoche">
     </div>
     <div class="col">
       <p>Una de las mayores riquezas de Medellín es su gente. No importa si eres visitante, siempre encontrarás personas dispuestas a orientarte, acompañarte y hacerte sentir seguro.
@@ -122,20 +125,20 @@
 
           <tr>
             <td>Parque Arví</td>
-            <td>Corregimiento de Santa Elena, al nororiente de Medellín (aprox. a 30 km del centro)</td>
-            <td>Reserva natural con senderos ecológicos</td>
+            <td>Corregimiento de Santa Elena, al nororiente de Medellín (aprox. a 30 km del centro).</td>
+            <td>Reserva natural con senderos ecológicos.</td>
           </tr>
 
           <tr>
             <td>Jardín Botánico</td>
-            <td>Zona norte de Medellín, cerca de la estación Universidad (Calle 73 # 51D-14)</td>
-            <td>Gran variedad de plantas y Orquideorama</td>
+            <td>Zona norte de Medellín, cerca de la estación Universidad.</td>
+            <td>Gran variedad de plantas y Orquideorama.</td>
           </tr>
 
           <tr>
             <td>Parque Pies Descalsos</td>
-            <td>Centro de Medellín, cerca de La Alpujarra y Plaza Mayor</td>
-            <td>Experiencia sensorial y relajante</td>
+            <td>Centro de Medellín, cerca de La Alpujarra y Plaza Mayor.</td>
+            <td>Experiencia sensorial y relajante.</td>
           </tr>
         </table>
 
@@ -161,17 +164,21 @@
 </p>
      </div>
 
-     <!-- Inicio de las dos imágenes -->
+     <!-- Inicio de imagen del Jardín Botánico -->
       <div class="col-md-6 images-section">
-        <div class="row">
-          <div class="col-12">
-            <img src="./imagenes/Jardin-Botánico.jpg" alt="Pueblo Paisa" class="img-fluid img-custom">
-          </div>
-        </div>
-      </div>
+  <div class="row">
+    <div class="col-12">
+      <img src="./imagenes/Jardin-Botánico.jpg" 
+           class="img-fluid img-custom"
+     data-bs-toggle="modal" 
+     data-bs-target="#modalJardin">
+    </div>
+  </div>
+</div>
            
  
-<!-- Fin de las dos imágenes -->
+<!-- Fin de imagen del Jardín Botánico -->
+ 
 </div>
 </div>
 </div>
@@ -253,7 +260,7 @@
         <div class="card">
           <img src="./imagenes/Mazamorra_Medellín.jpg" class="card-img-top" alt="Mazamorra">
           <div class="card-body text-center">
-            <p class="card-text">Mazamorra con panela</p>
+            <p class="card-text">Mazamorra con bocadillo</p>
           </div>
         </div>
       </div>
@@ -266,7 +273,7 @@
 
 <!--Sección de Sitios Turísticos-->
 <div class="container mt-5">
-  <h2>Lugares turísticos</h2>
+  <h2 class="titulo-lugares">Lugares turísticos</h2>
 
   <select id="ciudadSelect" class="form-select mb-4">
   <option value="">Selecciona una ciudad</option>
@@ -303,13 +310,13 @@
 <div class="footer-section">
   <h3>Redes sociales</h3>
   <div class="social-icons">
-    <a href="https://www.instagram.com" target="_blank">
+    <a href="https://www.instagram.com/colombia/" target="_blank">
       <i class="fab fa-instagram"></i>
     </a>
-    <a href="https://www.facebook.com" target="_blank">
+    <a href="https://www.facebook.com/Colombia.travelEspanol/?brand_redir=688316897892455#" target="_blank">
       <i class="fab fa-facebook"></i>
     </a>
-    <a href="https://www.youtube.com" target="_blank">
+    <a href="https://www.youtube.com/user/Colombiatravel" target="_blank">
       <i class="fab fa-youtube"></i>
     </a>
   </div>
@@ -321,9 +328,9 @@
 <div class="footer-section">
   <h3>Explora Colombia</h3>
   <ul>
-    <li><a href="https://www.canada.ca" target="_blank">Turismo Colombia</a></li>
-    <li><a href="https://www.travelalberta.com" target="_blank">Cartagena</a></li>
-    <li><a href="https://www.visitcalgary.com/" target="_blank">San Andrés</a></li>
+    <li><a href="https://colombia.co/turismo" target="_blank">Turismo Colombia</a></li>
+    <li><a href="https://colombia.travel/es/cartagena" target="_blank">Cartagena</a></li>
+    <li><a href="https://colombia.co/turismo/lugares-para-visitar-en-colombia/san-andres-un-tesoro-cultural" target="_blank">San Andrés</a></li>
   </ul>
 </div>
 
@@ -342,6 +349,29 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script> 
+
+
+<!--Inicio imagen del centro de los dos textos-->
+<div class="modal fade" id="modalMedellinNoche" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="./imagenes/Medellín-noche.jpg" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!--Fin imagen del centro de los dos textos-->
+
+<!--Inicio imagen para ampliar del Jardín Botánico-->
+<div class="modal fade" id="modalJardin" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="./imagenes/Jardin-Botánico.jpg" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!--Fin imagen para ampliar del Jardín Botánico-->
 
 <script src="./js/script.js"></script>
 

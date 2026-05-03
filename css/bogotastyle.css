@@ -416,3 +416,115 @@
     line-height: 1.6;
     font-weight: 500;
 }
+
+
+/*Cambiar estilo a texto Gastronomía de Medellín*/
+.titulo-gastronomia {
+    color: #fff243; /* amarillo elegante */
+    font-size: 36px;
+    font-weight: 800;
+
+    text-shadow: 2px 2px 8px rgba(138, 46, 12, 0.8);
+
+    margin-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Cambiar forma a Bandeja Paisa*/
+.imagenes-comida img {
+    width: 100%;
+    max-width: 500px;
+
+    height: 300px;
+    object-fit: cover; /* 👈 evita que se vea estirada */
+
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+/*Sección Gastronomía de Medellín*/
+/* Imagen principal */
+.img-bandeja {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Tarjetas */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/*Sección Sitios Turísticos*/
+#listaLugares li {
+    background: rgba(255,255,255,0.8);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+/*Cambiar texto: Lugares turísticos*/
+.titulo-lugares {
+  color: #fff243;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+
+  text-shadow: 2px 2px 8px rgba(138, 46, 12, 0.8);
+
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*Hacer que imagen en medio de dos textos quede grande*/
+
+.img-custom {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+
+  display: inline-block; /* 👈 clave */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-custom:hover {
+  transform: scale(1.08); /* 👈 más visible */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+
+/*Tarjetas de los platillos*/
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  word-wrap: break-word;     /* 👈 rompe palabras largas */
+  overflow-wrap: break-word; /* 👈 soporte moderno */
+}
