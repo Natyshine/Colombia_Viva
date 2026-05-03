@@ -527,7 +527,7 @@
 /*Arreglar tamaño de imagen en medio de 2 párrafos*/
 @media (max-width: 768px) {
   .img-custom {
-    width: 100% !important;
-    max-width: none;
+    width: 100%;
+    
   }
 }
